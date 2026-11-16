@@ -1,0 +1,174 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "date": "2026-11-16",
+  "accuracy": 92.3,
+  "correct": 24,
+  "total": 26,
+  "rows": [
+    {
+      "id": "all-supported-tower",
+      "expected": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "predicted": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "correct": 3,
+      "total": 3,
+      "errors": []
+    },
+    {
+      "id": "mixed-nimbus",
+      "expected": [
+        "supported",
+        "contradicted",
+        "not_supported",
+        "supported"
+      ],
+      "predicted": [
+        "supported",
+        "contradicted",
+        "not_supported",
+        "supported"
+      ],
+      "correct": 4,
+      "total": 4,
+      "errors": []
+    },
+    {
+      "id": "otter-contradictions",
+      "expected": [
+        "contradicted",
+        "contradicted",
+        "supported",
+        "contradicted"
+      ],
+      "predicted": [
+        "contradicted",
+        "contradicted",
+        "supported",
+        "contradicted"
+      ],
+      "correct": 4,
+      "total": 4,
+      "errors": []
+    },
+    {
+      "id": "paraphrase-supported",
+      "expected": [
+        "supported",
+        "supported"
+      ],
+      "predicted": [
+        "supported",
+        "supported"
+      ],
+      "correct": 2,
+      "total": 2,
+      "errors": []
+    },
+    {
+      "id": "invented-date",
+      "expected": [
+        "supported",
+        "not_supported"
+      ],
+      "predicted": [
+        "supported",
+        "not_supported"
+      ],
+      "correct": 2,
+      "total": 2,
+      "errors": []
+    },
+    {
+      "id": "number-swap",
+      "expected": [
+        "contradicted",
+        "supported"
+      ],
+      "predicted": [
+        "contradicted",
+        "supported"
+      ],
+      "correct": 2,
+      "total": 2,
+      "errors": []
+    },
+    {
+      "id": "negation",
+      "expected": [
+        "contradicted",
+        "supported"
+      ],
+      "predicted": [
+        "contradicted",
+        "supported"
+      ],
+      "correct": 2,
+      "total": 2,
+      "errors": []
+    },
+    {
+      "id": "all-not-supported",
+      "expected": [
+        "not_supported",
+        "not_supported"
+      ],
+      "predicted": [
+        "contradicted",
+        "contradicted"
+      ],
+      "correct": 0,
+      "total": 2,
+      "errors": [
+        {
+          "index": 0,
+          "sentence": "The orchard also grows oranges.",
+          "expected": "not_supported",
+          "predicted": "contradicted"
+        },
+        {
+          "index": 1,
+          "sentence": "A juice factory next door bottles the fruit for export.",
+          "expected": "not_supported",
+          "predicted": "contradicted"
+        }
+      ]
+    },
+    {
+      "id": "implied-founder",
+      "expected": [
+        "supported",
+        "supported"
+      ],
+      "predicted": [
+        "supported",
+        "supported"
+      ],
+      "correct": 2,
+      "total": 2,
+      "errors": []
+    },
+    {
+      "id": "extra-and-wrong-weight",
+      "expected": [
+        "supported",
+        "contradicted",
+        "supported"
+      ],
+      "predicted": [
+        "supported",
+        "contradicted",
+        "supported"
+      ],
+      "correct": 3,
+      "total": 3,
+      "errors": []
+    }
+  ]
+}

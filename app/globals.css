@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe6;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --line: #e0d6c8;
+  --teal: #0f6e6b;
+  --supported: #147a4a;
+  --supported-bg: #d8f3e4;
+  --unsupported: #9a6b12;
+  --unsupported-bg: #f8e8c4;
+  --contradicted: #b42318;
+  --contradicted-bg: #fde4e1;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  @apply antialiased;
+}
