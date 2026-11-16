@@ -2,7 +2,7 @@
 
 Paste a **source text** and an **AI answer**. The app splits the answer into sentences and asks a model to label each one as **supported**, **not supported**, or **contradicted** by the source. You get an overall groundedness score, a colour-coded highlight of the answer, a short reason for every sentence, and a supporting quote when the claim is grounded.
 
-**Live demo:** https://hallucination-detector.vercel.app
+**Live demo:** https://hallucination-detector-five.vercel.app
 
 ## Features
 
